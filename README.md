@@ -5,21 +5,34 @@ A shop in London has 2 million IoT tracking devices in the warehouse for sale, o
 Software Requirements
 
 Programming language: Java 8.
+
 Framework: Spring Boot.
+
 Database: Mongo database.
+
 Automated build: Apache Maven.
+
+
 
 Note: You can find unit testing in **IoTControllerTest** class file.
 
 
 To run the project, do the steps below:
+
 Steps
+
 For Windows OS:
+
 	* Execute build.bat file to build the project
+	
 	* Execute run.bat file to run the project
+	
 For Linux OS:
+
 	* Execute build.sh file to build the project
+	
 	* Execute run.sh file to run the project
+	
 
 
 * GET Method API to retrieve all Waiting for activation documents:
