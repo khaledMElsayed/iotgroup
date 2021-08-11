@@ -1,13 +1,15 @@
 Description
 A shop in London has 2 million IoT tracking devices in the warehouse for sale, of which half needs configured to meet UK standards.
 
-Software Requirements
-Programming language: Java 8.
-Framework: Spring Boot
-Database: Mongo database
-Automated build: Apache Maven
 
-Note: You can find unit testing in IoTControllerTest class file.
+Software Requirements
+
+Programming language: Java 8.
+Framework: Spring Boot.
+Database: Mongo database.
+Automated build: Apache Maven.
+
+Note: You can find unit testing in **IoTControllerTest** class file.
 
 
 To run the project, do the steps below:
@@ -111,6 +113,16 @@ Request body:
 Request example:
 
 http://localhost:8080/v1/VFIoT/device/{simId}/{operatorCode}/{managerKey}
+
+
+
+* DELETE Method API to delete Document:
+
+
+Request example:
+
+http://localhost:8080/v1/VFIoT/device/{simId}/{operatorCode}/{managerKey}
+
 
 
 
