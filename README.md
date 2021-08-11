@@ -14,7 +14,9 @@ Automated build: Apache Maven.
 
 
 
-Note: You can find unit testing in **IoTControllerTest** class file.
+Notes: 
+You need First to install **Mongo database**.
+You can find unit testing in **IoTControllerTest** class file.
 
 
 To run the project, do the steps below:
